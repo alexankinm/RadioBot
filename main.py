@@ -14,4 +14,4 @@ async def on_ready() -> None:
     player.play(FFmpegPCMAudio("http://s02.fjperezdj.com:8006/live")) #ссылка на радио. Указывать в кавычках.
     
 keep_alive.keep_alive()
-bot.run(os.environ["OTU3OTUwMTkxNzUzOTEyMzMw.YkGOow.BoR94jCU9kAw9W9NhgJviRo8tT4"])
+bot.run("TOKEN")
